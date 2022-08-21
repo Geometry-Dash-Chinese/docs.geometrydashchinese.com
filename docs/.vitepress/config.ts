@@ -1,6 +1,9 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+    title: '几何冲刺文档站',
+    lang: 'zh-CN',
+    lastUpdated: true,
     themeConfig: {
         siteTitle: '几何冲刺文档站',
         footer: {
