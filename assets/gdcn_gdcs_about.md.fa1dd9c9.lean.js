@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,d as o}from"./app.76a69f5a.js";const g=JSON.parse('{"title":"GDCS","description":"","frontmatter":{},"headers":[],"relativePath":"gdcn/gdcs/about.md","lastUpdated":1661122805000}'),r={name:"gdcn/gdcs/about.md"},c=o("",2),s=[c];function d(n,_,h,i,p,m){return a(),t("div",null,s)}const l=e(r,[["render",d]]);export{g as __pageData,l as default};
