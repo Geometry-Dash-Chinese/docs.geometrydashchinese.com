@@ -4,40 +4,70 @@ export default defineConfig({
     base: process.env.VITE_BASE_PUBLIC_PATH,
     themeConfig: {
         siteTitle: '几何冲刺文档站',
+        footer: {
+            message: '几何冲刺文档站 By 渣渣120',
+            copyright: '&copy; 2022 - ' + new Date().getFullYear() + ' | <a href="https://docs.geometrydashchinese.com">几何冲刺文档站</a> | <a href="https://beian.miit.gov.cn">吉ICP备18006293号</a>'
+        },
+        editLink: {
+            pattern: 'https://github.com/Geometry-Dash-Chinese/docs.geometrydashchinese.com/edit/main/docs/:path'
+        },
         sidebar: [
             {
-                text: 'GDCS',
+                text: '几何冲刺',
                 items: [
                     {
-                        text: '指令',
+                        text: '关于',
+                        link: '/about'
+                    }
+                ]
+            },
+            {
+                text: 'GDCN',
+                collapsible: true,
+                items: [
+                    {
+                        text: '关于',
+                        link: '/gdcn/about'
+                    },
+                    {
+                        text: 'GDCS',
                         items: [
                             {
-                                text: '语法',
-                                link: '/gdcs/game/command/inspect'
+                                text: '关于',
+                                link: '/gdcn/gdcs/about'
                             },
                             {
-                                text: '账号命令',
+                                text: '游戏指令系统',
                                 items: [
                                     {
-                                        text: '',
+                                        text: '语法',
+                                        link: '/gdcn/gdcs/game/command/inspect'
+                                    },
+                                    {
+                                        text: '账号相关指令',
                                         items: [
                                             {
-                                                text: '!test',
-                                                link: '/gdcs/game/command/common/test'
+                                                text: '',
+                                                items: [
+                                                    {
+                                                        text: '!test',
+                                                        link: '/gdcn/gdcs/game/command/common/test'
+                                                    }
+                                                ]
                                             }
                                         ]
-                                    }
-                                ]
-                            },
-                            {
-                                text: '关卡命令',
-                                items: [
+                                    },
                                     {
-                                        text: '',
+                                        text: '关卡相关指令',
                                         items: [
                                             {
-                                                text: '!test',
-                                                link: '/gdcs/game/command/common/test'
+                                                text: '',
+                                                items: [
+                                                    {
+                                                        text: '!test',
+                                                        link: '/gdcn/gdcs/game/command/common/test'
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }
