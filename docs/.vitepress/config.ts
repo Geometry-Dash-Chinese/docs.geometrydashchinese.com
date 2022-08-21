@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+    base: process.env.VITE_BASE_PUBLIC_PATH,
     themeConfig: {
         siteTitle: '几何冲刺文档站',
         sidebar: [
