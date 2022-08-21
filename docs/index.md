@@ -1,5 +1,6 @@
 ---
 layout: home
+title: '主页'
 
 hero:
   name: 几何冲刺文档站
