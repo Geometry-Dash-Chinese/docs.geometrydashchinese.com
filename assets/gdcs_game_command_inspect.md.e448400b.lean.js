@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as c,d}from"./app.c5eac502.js";const u=JSON.parse('{"title":"\u57FA\u672C\u4ECB\u7ECD","description":"","frontmatter":{},"headers":[],"relativePath":"gdcs/game/command/inspect.md"}'),a={name:"gdcs/game/command/inspect.md"},t=d("",9),r=[t];function s(n,p,i,_,h,l){return c(),o("div",null,r)}const m=e(a,[["render",s]]);export{u as __pageData,m as default};
