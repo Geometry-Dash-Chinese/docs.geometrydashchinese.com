@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a as r}from"./app.e752d907.js";const f=JSON.parse('{"title":"GDProxy","description":"","frontmatter":{},"headers":[],"relativePath":"GDProxy/about.md","lastUpdated":1661268045000}'),a={name:"GDProxy/about.md"},c=r("",2),d=[c];function s(_,n,h,p,i,l){return o(),t("div",null,d)}const x=e(a,[["render",s]]);export{f as __pageData,x as default};
