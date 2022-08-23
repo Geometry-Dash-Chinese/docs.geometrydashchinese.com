@@ -11,8 +11,8 @@ hero:
     联系渣渣120 (QQ: 2331281251)
   actions:
     - theme: brand
-      text: 关于
-      link: /about
+      text: 关于游戏
+      link: /game/about
     - theme: alt
       text: 在 Github 上查看
       link: https://github.com/Geometry-Dash-Chinese/docs.geometrydashchinese.com
