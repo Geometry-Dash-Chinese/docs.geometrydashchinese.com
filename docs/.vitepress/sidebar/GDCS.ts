@@ -14,11 +14,11 @@ export default {
             items: [
                 {
                     text: '介绍',
-                    link: '/GDCS/game/command/introduction'
+                    link: '/GDCS/Game/Command/introduction'
                 },
                 {
                     text: '!test',
-                    link: '/GDCS/game/command/common/test'
+                    link: '/GDCS/Game/Command/Common/test'
                 }
             ]
         }

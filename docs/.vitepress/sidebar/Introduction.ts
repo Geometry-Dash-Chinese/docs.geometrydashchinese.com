@@ -7,7 +7,7 @@ export default {
     items: [
         {
             text: '这是什么',
-            link: '/game/about'
+            link: '/Game/about'
         }
     ]
 } as DefaultTheme.SidebarGroup;

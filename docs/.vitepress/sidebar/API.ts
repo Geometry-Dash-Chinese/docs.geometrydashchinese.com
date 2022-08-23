@@ -7,11 +7,11 @@ export default {
     items: [
         {
             text: '注册账号',
-            link: '/api/accounts/registerGJAccount'
+            link: '/API/accounts/registerGJAccount'
         },
         {
             text: '登录账号',
-            link: '/api/accounts/loginGJAccount'
+            link: '/API/accounts/loginGJAccount'
         }
     ]
 } as DefaultTheme.SidebarGroup;

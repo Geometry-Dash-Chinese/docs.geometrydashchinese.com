@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 关于游戏
-      link: /game/about
+      link: /Game/about
     - theme: alt
       text: 在 Github 上查看
       link: https://github.com/Geometry-Dash-Chinese/docs.geometrydashchinese.com
