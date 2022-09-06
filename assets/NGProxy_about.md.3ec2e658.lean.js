@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as r,a as t}from"./app.9ff9be4d.js";const m=JSON.parse('{"title":"NGProxy","description":"","frontmatter":{},"headers":[],"relativePath":"NGProxy/about.md","lastUpdated":1661268335000}'),a={name:"NGProxy/about.md"},c=t("",2),d=[c];function n(s,_,h,p,i,l){return r(),o("div",null,d)}const x=e(a,[["render",n]]);export{m as __pageData,x as default};
