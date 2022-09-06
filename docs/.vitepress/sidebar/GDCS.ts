@@ -21,6 +21,15 @@ export default {
                     link: '/GDCS/Game/Command/Common/test'
                 }
             ]
+        },
+        {
+            text: '关卡指令',
+            items: [
+                {
+                    text: '!rate',
+                    link: '/GDCS/Game/Command/Level/rate'
+                }
+            ]
         }
     ]
 } as DefaultTheme.SidebarGroup;
