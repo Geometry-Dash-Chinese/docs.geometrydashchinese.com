@@ -1,10 +1,4 @@
 import {defineConfig} from "vitepress";
-import Introduction from "./sidebar/Introduction";
-import API from "./sidebar/API";
-import GDCN from "./sidebar/GDCN";
-import GDCS from "./sidebar/GDCS";
-import NGProxy from "./sidebar/NGProxy";
-import GDProxy from "./sidebar/GDProxy";
 
 export default defineConfig({
     title: '几何冲刺文档站',
@@ -20,12 +14,32 @@ export default defineConfig({
             pattern: 'https://github.com/Geometry-Dash-Chinese/docs.geometrydashchinese.com/edit/main/docs/:path'
         },
         sidebar: [
-            Introduction,
-            API,
-            GDCN,
-            GDCS,
-            GDProxy,
-            NGProxy,
+            {
+                text: '游戏',
+                items: [
+                    {
+                        text: '介绍',
+                        link: '/game/about'
+                    },
+                    {
+                        text: '名词',
+                        items: [
+                            {
+                                text: 'CP',
+                                link: '/game/noun/cp'
+                            },
+                            {
+                                text: 'ViPriN',
+                                link: '/game/noun/viprin'
+                            },
+                            {
+                                text: 'Collab',
+                                link: '/game/noun/collab'
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
     }
 });
