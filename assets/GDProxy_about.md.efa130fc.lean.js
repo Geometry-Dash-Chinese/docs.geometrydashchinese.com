@@ -1,1 +1,0 @@
-import{_ as e,c as t,o,a as r}from"./app.cd4fae2a.js";const f=JSON.parse('{"title":"GDProxy","description":"","frontmatter":{},"headers":[],"relativePath":"GDProxy/about.md","lastUpdated":1662479851000}'),a={name:"GDProxy/about.md"},c=r("",2),d=[c];function s(_,n,h,p,i,l){return o(),t("div",null,d)}const x=e(a,[["render",s]]);export{f as __pageData,x as default};

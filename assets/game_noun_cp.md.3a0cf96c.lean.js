@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as r,d as a}from"./app.875fe0da.js";const x=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"game/noun/cp.md","lastUpdated":1668598428000}'),n={name:"game/noun/cp.md"},c=a("",2),d=[c];function o(s,l,_,i,p,g){return e(),r("div",null,d)}const m=t(n,[["render",o]]);export{x as __pageData,m as default};
