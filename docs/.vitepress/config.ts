@@ -22,21 +22,8 @@ export default defineConfig({
                         link: '/game/about'
                     },
                     {
-                        text: '名词',
-                        items: [
-                            {
-                                text: 'CP',
-                                link: '/game/noun/cp'
-                            },
-                            {
-                                text: 'ViPriN',
-                                link: '/game/noun/viprin'
-                            },
-                            {
-                                text: 'Collab',
-                                link: '/game/noun/collab'
-                            }
-                        ]
+                        text: '常用术语',
+                        link: '/game/nouns'
                     }
                 ]
             }
