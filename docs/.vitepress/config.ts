@@ -18,7 +18,7 @@ export default defineConfig({
                 text: '游戏',
                 items: [
                     {
-                        text: '介绍',
+                        text: '这是什么',
                         link: '/game/about'
                     },
                     {
